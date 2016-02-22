@@ -1,6 +1,6 @@
 1) Team Members
-Mi Chengyi   (A0105494E)
-Wang Kunzhen (A0105514U)
+Mi Chengyi
+Wang Kunzhen
 
 2) Description
 2.1) Overview
@@ -37,6 +37,3 @@ Size StrategyShmemSize(void);
 // Allocate some more memory for StrategyControl->LRUListNodes and initialize each of the BufferListNode
 void StrategyInitialize(bool init);
 ```
-
-2.3) Observations
-We are able to pass the testcases but when we ran the benchmark script, the server hanged and no output was written to lru.txt. We tried multiple times and were still not able to get output to lru.txt. 
