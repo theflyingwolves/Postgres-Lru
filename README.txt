@@ -4,7 +4,7 @@ Wang Kunzhen (A0105514U)
 
 2) Description
 2.1) Overview
-We added a new struct named BufferListNode with pointers to prev and next. A BufferListNode object is a node in the linked list. We preallocated all the BufferListNodes in an array stored in StrategyControl. 
+In this freelist-lru.c file, we replaced the original clock replacement policy by a LRU policy in the buffer manager module of PostgresSql. We added a new struct named BufferListNode with pointers to prev and next. A BufferListNode object is a node in the linked list. We preallocated all the BufferListNodes in an array stored in StrategyControl. 
 
 2.2) Highlight of changes
 
